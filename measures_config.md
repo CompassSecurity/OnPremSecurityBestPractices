@@ -37,7 +37,7 @@ To check the locally installed AntiVirus software you can use PowerShell:
 
 ### Enforce SMB and LDAP Signing 
 Enable and enforce SMB and LDAP signing on all Windows server and clients.
-This can be set under the following group policy setting:
+This can be set under the following group policy setting:   
 SMB Signing Server
 ```
 Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options >
