@@ -6,7 +6,7 @@
 - [Measures](#measures)
   * [Install EDR or Antivirus](#install-edr-or-antivirus)
   * [Enforce SMB & LDAP signing](#enforce-smb-and-ldap-signing)
-  * [Disable or Restrict macros](#restrict-macros)
+  * [Disable or Restrict macros](#disable-or-restrict-macros)
   * [Enforce Multi-Factor Authentication](#enforce-multi-factor-authentication)
   * [Enforce BitLocker on Clients](#enforce-bitlocker-on-clients)
   * [Implement hardening of domain controllers](#implement-hardening-of-domain-controllers)
