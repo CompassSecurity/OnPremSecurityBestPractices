@@ -92,7 +92,7 @@ The following categories of measures are defined:
 ----------|-------------|------:
  [Install Antivirus](measures_config.md#install-edr-or-antivirus) | Block malware and common attacks | A 
  [Enforce SMB & LDAP signing](measures_config.md#enforce-smb-and-ldap-signing) | Limit privilege escalation within the internal network | A 
- [Disable or restrict macros](measures_config.md#restrict-macros) | Block malware which is spread via office documents | A 
+ [Disable or restrict macros](measures_config.md#disable-or-restrict-macros) | Block malware which is spread via office documents | A 
  [Enforce Multi-Factor Authentication](measures_config.md#enforce-multi-factor-authentication) | Limit malicious access to systems and services | A 
  [Enforce BitLocker on clients](measures_config.md#enforce-bitlocker-on-clients) | Protect data on harddisks from malicious access | A 
  [Implement hardening of domain controllers](measures_config.md#implement-hardening-of-domain-controllers) | Limit attack surface on domain controllers | A 
