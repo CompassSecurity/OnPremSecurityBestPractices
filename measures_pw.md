@@ -34,7 +34,7 @@ To check the current password policy for all domains in the forest, you can use 
 `(Get-ADForest -Current LoggedOnUser).Domains | %{ Get-ADDefaultDomainPasswordPolicy -Identity $_ }`   
 
 Furthermore, the password should be checked against a list of breached passwords, if possible.
-Microsofts Azure AD Password Protection feature can also be used in hybrid environments for on-premise Active Diretories:   
+Microsofts Azure AD Password Protection feature can also be used in hybrid environments for on-premise Active Directories:   
 https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-password-ban-bad-on-premises
 
 ### Use Unique Local Administrator Credentials 
