@@ -161,27 +161,30 @@ The following key events / activities should be logged on systems and services w
 - Executed scripts (e.g. PowerShell, Visual Basic, JavaScript, etc.)
 - Clearing / Deleting of Logfiles
 
+Some basic GPO settings for an audit policy to detect lateral movement are documented in the following cheat sheet:   
+https://github.com/CompassSecurity/OnPremSecurityBestPractices/blob/c21a808f0f6e201619175701ef581091474e59a5/lateral_movement_detection_basic_gpo_settings.pdf
+
 ### Raise Active Directory Function Level
 The Active Directory function level should be raised to the most recent level to ensure that the latest security features can be used.
 You can check your current functional level with PowerShell:   
 `([System.DirectoryServices.ActiveDirectory.Forest]::Getcurrentforest())`
 
-The following Microsoft documentation lists the added features with each new functional level:
+The following Microsoft documentation lists the added features with each new functional level:   
 https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-functional-levels
 
 ### Enable Credential Guard 
 The Credential Guard security feature should be enabled to protect credentials from being stolen by an attacker or a malware.
 
-Further information:
-- https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard
+Further information:   
+https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard
 
 ### Enable AppLocker 
 Only programs defined in a whitelist should be allowed to be executed by the user. 
 
 This can be achieved for example by using Microsoft Windows Defender Application Control and Microsoft AppLocker.
 
-References:
-- https://docs.microsoft.com/en-us/windows/device-security/applocker/applocker-overview
+Further information:   
+https://docs.microsoft.com/en-us/windows/device-security/applocker/applocker-overview
 
 ### Limit Cached Credentials
 The number of domain passwords that are cached should be deactivated by setting the following policy to 0:   
