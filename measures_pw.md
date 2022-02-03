@@ -37,6 +37,8 @@ Furthermore, the password should be checked against a list of breached passwords
 Microsofts Azure AD Password Protection feature can also be used in hybrid environments for on-premise Active Directories:   
 https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-password-ban-bad-on-premises
 
+Note: If you implement a list of banned passwords (password blacklist), there's no need for a policy with special characters and lower- / uppercase characters. In fact, newer guidelines advise against using such policies because of human behavior leading to more predictable passwords. However, for technical accounts like service accounts, it is still recommended. 
+
 ### Use Unique Local Administrator Credentials 
 The local administrator password should be changed on a regular basis and should be unique on every host (workstations and servers!).
 
